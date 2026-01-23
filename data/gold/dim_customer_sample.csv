@@ -1,0 +1,6 @@
+customer_sk,customer_id,name,email,telephone,city,country,gender,date_of_birth,job_title,_created_at,_updated_at
+1,1021,Frank Abbott,frank.abbott@fake_yahoo.com,001-838-768-0484x92375,New York,United States,Male,1982-12-02,International aid/development worker,2026-01-20T05:58:31.756Z,2026-01-20T06:05:26.732Z
+2,2737,Daniel Mcgrath,daniel.mcgrath@fake_hotmail.com,+1-510-591-0885x50078,New York,United States,Male,2001-07-01,Not available,2026-01-20T05:58:31.756Z,2026-01-20T06:05:26.732Z
+3,2936,Lisa Bradford,lisa.bradford@fake_hotmail.com,(579)444-9109,New York,United States,Female,2001-03-05,Media buyer,2026-01-20T05:58:31.756Z,2026-01-20T06:05:26.732Z
+4,3139,Jay Williams,jay.williams@fake_gmail.com,(268)754-7512x32370,New York,United States,Male,1997-08-09,Museum/gallery conservator,2026-01-20T05:58:31.756Z,2026-01-20T06:05:26.732Z
+5,3683,Danielle Thomas,danielle.thomas@fake_hotmail.com,892-793-6555x2118,New York,United States,Female,1999-10-21,Furniture conservator/restorer,2026-01-20T05:58:31.756Z,2026-01-20T06:05:26.732Z

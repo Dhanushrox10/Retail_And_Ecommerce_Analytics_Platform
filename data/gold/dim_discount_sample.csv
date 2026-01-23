@@ -1,0 +1,6 @@
+discount_sk,start_date,end_date,discount,description,category,sub_category,_created_at,_updated_at
+1,2023-10-01,2023-10-10,0.2,20% discount during our Autumn Essentials Sale,Feminine,Sweaters and Knitwear,2026-01-20T06:48:51.628Z,2026-01-20T06:48:51.628Z
+2,2020-10-01,2020-10-10,0.2,20% discount during our Autumn Essentials Sale,Feminine,Sportswear,2026-01-20T06:48:51.628Z,2026-01-20T06:48:51.628Z
+3,2024-03-15,2024-03-31,0.35,35% discount during our Early Spring Collection Refresh,Feminine,Dresses and Jumpsuits,2026-01-20T06:48:51.628Z,2026-01-20T06:48:51.628Z
+4,2024-10-01,2024-10-10,0.2,20% discount during our Autumn Essentials Sale,Children,Sweaters,2026-01-20T06:48:51.628Z,2026-01-20T06:48:51.628Z
+5,2021-03-15,2021-03-31,0.35,35% discount during our Early Spring Collection Refresh,Feminine,Dresses and Jumpsuits,2026-01-20T06:48:51.628Z,2026-01-20T06:48:51.628Z

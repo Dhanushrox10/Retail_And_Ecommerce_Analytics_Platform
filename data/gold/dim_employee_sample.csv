@@ -1,0 +1,6 @@
+employee_sk,employee_id,store_id,name,position,_created_at,_updated_at
+1,94,8,杨凤英,Sales Associate,2026-01-20T06:59:02.080Z,2026-01-20T06:59:02.080Z
+2,29,3,Cynthia Serrano,Sales Associate,2026-01-20T06:59:02.080Z,2026-01-20T06:59:02.080Z
+3,362,32,Soraia Batista-maia,Assistant Manager,2026-01-20T06:59:02.080Z,2026-01-20T06:59:02.080Z
+4,284,25,Lucie Dijoux,Stock Clerk,2026-01-20T06:59:02.080Z,2026-01-20T06:59:02.080Z
+5,88,8,胡秀云,Cashier,2026-01-20T06:59:02.080Z,2026-01-20T06:59:02.080Z

@@ -1,0 +1,6 @@
+date_sk,date,day,month,month_name,quarter,year,day_of_week,day_name,week_of_year,is_weekend
+20150101,2015-01-01,1,1,January,1,2015,5,Thursday,1,false
+20150102,2015-01-02,2,1,January,1,2015,6,Friday,1,false
+20150103,2015-01-03,3,1,January,1,2015,7,Saturday,1,true
+20150104,2015-01-04,4,1,January,1,2015,1,Sunday,1,true
+20150105,2015-01-05,5,1,January,1,2015,2,Monday,2,false
