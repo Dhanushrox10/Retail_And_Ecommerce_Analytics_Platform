@@ -1,0 +1,6 @@
+Customer_ID,Name,Email,Telephone,City,Country,Gender,Date_Of_Birth,Job_Title,ingestion_ts
+1203365,Brigitte de Huet,brigitte.de.huet@fake_voila.fr,0444057753,Villefranche-sur-Saône,France,F,1988-07-18,Clothing/textile technologist,2026-01-16T05:29:29.853Z
+1203366,Audrey Gosselin de la Maréchal,audrey.gosselin.de.la.maréchal@fake_hotmail.fr,0230184124,Villefranche-sur-Saône,France,F,1983-02-16,Chemical engineer,2026-01-16T05:29:29.853Z
+1203367,Marine Marchand,marine.marchand@fake_gmail.com,+33 (0)4 67 32 30 14,Villefranche-sur-Saône,France,F,1986-01-02,Database administrator,2026-01-16T05:29:29.853Z
+1203368,Patrick Grondin,patrick.grondin@fake_club-internet.fr,0143258515,Villefranche-sur-Saône,France,M,1994-09-04,"Editor, magazine features",2026-01-16T05:29:29.853Z
+1203369,Marianne Bertrand-Ruiz,marianne.bertrand-ruiz@fake_orange.fr,+33 7 72 55 15 65,Villefranche-sur-Saône,France,F,2003-02-15,null,2026-01-16T05:29:29.853Z

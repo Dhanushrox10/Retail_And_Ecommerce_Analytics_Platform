@@ -1,0 +1,6 @@
+Employee_ID,Store_ID,Name,Position,ingestion_ts
+1,1,Stephen Johnson,Store Manager,2026-01-16T05:32:22.948Z
+2,1,Rebecca Myers,Assistant Manager,2026-01-16T05:32:22.948Z
+3,1,Katherine Buchanan,Cashier,2026-01-16T05:32:22.948Z
+4,1,Jessica Hicks,Stock Clerk,2026-01-16T05:32:22.948Z
+5,1,Ryan Gross,Sales Associate,2026-01-16T05:32:22.948Z
