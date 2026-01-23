@@ -1,0 +1,6 @@
+Customer_ID,Name,Email,Telephone,City,Country,Gender,Date_Of_Birth,Job_Title,ingestion_ts,ingestion_date
+103,Anthony Bishop,anthony.bishop@fake_gmail.com,001-866-760-1652x98477,New York,United States,Male,1992-05-29,Exhibition designer,2026-01-16T05:29:29.853Z,2026-01-16
+517,Laura Smith,laura.smith@fake_gmail.com,9517619965,New York,United States,Female,2003-12-17,Not available,2026-01-16T05:29:29.853Z,2026-01-16
+1435,Sarah Riley,sarah.riley@fake_hotmail.com,+1-804-731-4265x4950,New York,United States,Female,2005-03-27,Not available,2026-01-16T05:29:29.853Z,2026-01-16
+3029,Kyle Russell,kyle.russell@fake_yahoo.com,+1-458-815-3978x39436,New York,United States,Male,1997-07-29,Advertising art director,2026-01-16T05:29:29.853Z,2026-01-16
+4010,Jody Patterson,jody.patterson@fake_yahoo.com,(910)266-9714,New York,United States,Female,1982-06-22,"Engineer, chemical",2026-01-16T05:29:29.853Z,2026-01-16

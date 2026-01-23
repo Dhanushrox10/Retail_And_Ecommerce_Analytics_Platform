@@ -1,0 +1,6 @@
+Employee_ID,Store_ID,Name,Position,ingestion_ts,ingestion_date
+94,8,杨凤英,Sales Associate,2026-01-16T05:32:22.948Z,2026-01-16
+29,3,Cynthia Serrano,Sales Associate,2026-01-16T05:32:22.948Z,2026-01-16
+362,32,Soraia Batista-maia,Assistant Manager,2026-01-16T05:32:22.948Z,2026-01-16
+284,25,Lucie Dijoux,Stock Clerk,2026-01-16T05:32:22.948Z,2026-01-16
+88,8,胡秀云,Cashier,2026-01-16T05:32:22.948Z,2026-01-16

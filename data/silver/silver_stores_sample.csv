@@ -1,0 +1,6 @@
+Store_ID,Country,City,Store_Name,Number_of_Employees,ZIP_Code,Latitude,Longitude,ingestion_ts,ingestion_date
+29,España,Sevilla,Store Sevilla,8,41001,37.3906,-5.9879,2026-01-16T05:42:56.232Z,2026-01-16
+24,France,Toulouse,Store Toulouse,8,31000,43.6047,1.4442,2026-01-16T05:42:56.232Z,2026-01-16
+15,Deutschland,Frankfurt am Main,Store Frankfurt am Main,10,60311,50.1145,8.6785,2026-01-16T05:42:56.232Z,2026-01-16
+20,United Kingdom,Bristol,Store Bristol,7,BS1 1AA,51.4545,-2.5879,2026-01-16T05:42:56.232Z,2026-01-16
+21,France,Paris,Store Paris,7,75000,48.8656,2.343,2026-01-16T05:42:56.232Z,2026-01-16
