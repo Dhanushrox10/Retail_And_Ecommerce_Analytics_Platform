@@ -1,155 +1,57 @@
-Data Pipeline Workflow
-##1. Data Ingestion (Raw → Bronze)
+# Data Pipeline Workflow
+## 1. Environment setup
+- Create a new workspace folder for the project.
+- Organize notebooks by layers
+- Create catalog, schema and volumes.
+- Create connection between kaggle and Databricks by kaggle API.
 
-Source
+## 2. Data Ingestion
+- Transfer the CSV files (Customers, Products, Stores, Employees, Discounts, Transactions)
+- Store it in volumes
 
-CSV files (Customers, Products, Stores, Employees, Discounts, Transactions)
+## 3. Bronze layer
+- Read the CSV files
+- Sanitize column names
+- Add ingestion metadata
+- Write it in Delta format
 
-Actions
+Sample Output:
+```
+- retail_analytics.bronze.customers
+- retail_analytics.bronze.products
+```
 
-Read raw CSV files from cloud storage
+## 4. Silver layer
+- Remove duplicates and clean the data
+- Handle null values
+- Standardize values
+- Trim strings, normalize case
 
-Infer schema
+Sample Output:
+```
+- retail_analytics.silver.customers
+- retail_analytics.silver.products
+```
 
-Preserve original column names
+## 5. Gold layer
+- Enable fast analytics using star schema
+- Store measurable business events
+- Generate surrogate keys
+- Optimized for dashboards
 
-Add ingestion metadata
-
-Output
-
-retail_analytics.bronze.* Delta tables
-
-Key points
-
-No business logic
-
-No deduplication
-
-Append-only
-
-##2. Data Standardization & Cleaning (Bronze → Silver)
-
-Purpose
-Create analytics-ready, trusted datasets.
-
-Actions
-
-Sanitize column names (snake_case, no spaces)
-
-Remove duplicates using business keys
-
-Handle null values (Not available)
-
-Standardize values (e.g., M → Male, F → Female)
-
-Trim strings, normalize case
-
-Add derived columns (e.g., ingestion_date)
-
-Output
-
-retail_analytics.silver.customers
-
-retail_analytics.silver.products
-
-retail_analytics.silver.stores
-
-retail_analytics.silver.employees
-
-retail_analytics.silver.discounts
-
-retail_analytics.silver.transactions
-
-##3. Dimensional Modeling (Silver → Gold – Dimensions)
-
-Purpose
-Enable fast analytics using star schema.
-
-Dimension Tables
-
-dim_customers (SCD-1)
-
+Dimension Tables:
+dim_date
+dim_customers
 dim_products
-
 dim_stores
-
 dim_employees
-
 dim_discounts
 
-dim_date
+Fact Tables:
+- fact_sales
+- fact_returns
 
-Actions
-
-Generate surrogate keys (*_sk)
-
-Add metadata columns:
-
-_created_at
-
-_updated_at
-
-Use MERGE for upserts
-
-##4. Fact Table Creation (Silver → Gold – Facts)
-
-Purpose
-Store measurable business events.
-
-Fact Tables
-
-fact_sales
-
-fact_returns
-
-Actions
-
-Filter transaction types (Sale / Return)
-
-Join with dimension tables
-
-Generate foreign keys (*_sk)
-
-Calculate measures:
-
-sales_amount
-
-quantity_sold
-
-refund_amount
-
-##5. Gold Layer Output
-
-Schema
-
-Star schema (Facts + Dimensions)
-
-Optimized for BI & dashboards
-
-Used For
-
-KPIs
-
-Aggregations
-
-Time-series analysis
-
-Customer & product analytics
-
-##6. Analytics & Dashboards
-
-Platform
-
-Databricks SQL (Community Edition)
-
-Dashboards
-
-Sales Performance
-
-Customer Lifetime Value (CLV)
-
-Product Performance
-
-Store Performance
-
-Returns Analysis
+## 6. Dashboard & visualization
+- Created 15+ KPI metrics
+- Clean visuals and dashboards
+- Databricks SQL queries
