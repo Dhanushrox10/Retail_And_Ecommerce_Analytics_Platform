@@ -40,12 +40,12 @@ Sample Output:
 - Optimized for dashboards
 
 Dimension Tables:
-dim_date
-dim_customers
-dim_products
-dim_stores
-dim_employees
-dim_discounts
+- dim_date
+- dim_customers
+- dim_products
+- dim_stores
+- dim_employees
+- dim_discounts
 
 Fact Tables:
 - fact_sales
