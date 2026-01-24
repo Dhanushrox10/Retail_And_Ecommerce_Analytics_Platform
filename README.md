@@ -77,17 +77,20 @@ Purpose: Enable business reporting and insights.
 
 <h2 id="kpi-metrics">📊KPI Metrics</h2>
 The key performance indicators used to measure business performance and support data-driven decision-making. The KPIs are derived from Gold-layer fact and dimension tables and are visualized using dashboards.
-  Example KPI's:
-  - Total Sales Revenue - Overall revenue generated across all stores
-  - Yearly / Monthly Sales Trend – Sales performance over time
-  - Total Orders – Number of completed sales transactions
-  - Average Order Value (AOV) – Average revenue per order
-  - Customer Lifetime Value (CLV) – Total revenue contributed by a customer
-  - Top Performing Store – Store with the highest sales value
-  - Category Performance – Sales distribution across product categories
+
+Example KPI's:
+
+- Total Sales Revenue - Overall revenue generated across all stores
+- Yearly / Monthly Sales Trend – Sales performance over time
+- Total Orders – Number of completed sales transactions
+- Average Order Value (AOV) – Average revenue per order
+- Customer Lifetime Value (CLV) – Total revenue contributed by a customer
+- Top Performing Store – Store with the highest sales value
+- Category Performance – Sales distribution across product categories
 
 <h2 id="analytics-and-dashboards">📊Analytics & Dashboards</h2>
 The Gold layer enables key business insights such as:
+
 - Total and yearly sales trends
 - Top and least performing stores
 - Customer Lifetime Value (CLV)
@@ -108,6 +111,7 @@ The Gold layer enables key business insights such as:
 <h2 id="conclusion">🏁Conclusion</h2>
 This project demonstrates an end-to-end data engineering and analytics solution using modern Lakehouse principles.
 By separating concerns across Bronze, Silver, and Gold layers, the platform ensures:
+
 - High data quality
 - Scalability
 - Auditability
