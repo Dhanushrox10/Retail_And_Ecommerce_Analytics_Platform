@@ -16,8 +16,6 @@ This project implements a modern data analytics platform for a retail and e-comm
 <h2 id="project-overview">🧩Project Overview</h2>
 This project delivers an end-to-end Retail & E-Commerce Analytics Platform built on Databricks Lakehouse architecture. It transforms raw transactional data into analytics-ready datasets using a structured Bronze, Silver, and Gold data pipeline.
 
-
-
 The platform focuses on data quality, scalability, and performance by applying data cleaning, standardization, and dimensional modeling techniques. Gold-layer fact and dimension tables enable meaningful business insights such as sales trends, customer behavior, product performance, and store-level analysis.
 
 The final output supports interactive dashboards and KPI reporting, allowing stakeholders to make data-driven decisions efficiently.
