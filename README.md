@@ -13,21 +13,21 @@ This project implements a modern data analytics platform for a retail and e-comm
 - [Future Enhancements](#future-enhancements)
 - [Conclusion](#conclusion)
 
-<h2 id="project-overview">Project Overview</h2>
+<h2 id="project-overview">🧩Project Overview</h2>
 This project delivers an end-to-end Retail & E-Commerce Analytics Platform built on Databricks Lakehouse architecture. It transforms raw transactional data into analytics-ready datasets using a structured Bronze, Silver, and Gold data pipeline.
 
 The platform focuses on data quality, scalability, and performance by applying data cleaning, standardization, and dimensional modeling techniques. Gold-layer fact and dimension tables enable meaningful business insights such as sales trends, customer behavior, product performance, and store-level analysis.
 
 The final output supports interactive dashboards and KPI reporting, allowing stakeholders to make data-driven decisions efficiently.
 
-## 🎯Project Objectives
+<h2 id="project-objectives">🎯Project Objectives</h2>
 
 - Build an end-to-end retail analytics platform using Lakehouse architecture.
 - Ensure data quality, consistency, and traceability across all layers
 - Design fact and dimension tables for business intelligence use cases
 - Support real-time business insights using dashboards and KPIs
 
-## 🧰Tech Stack
+<h2 id="tech_stack">🧰Tech Stack</h2>
 
 | Category             | Technology                         |
 | -------------------- | ---------------------------------- |
@@ -43,11 +43,12 @@ The final output supports interactive dashboards and KPI reporting, allowing sta
 | Data Source          | CSV Files                          |
 
 
-## 🏗️Project Architecture
+<h2 id="project-architecture">🏗️Project Architecture</h2>
 
 ![Architecture Diagram](docs/Architecture_flowchart.png)
 
-## Medallion Architecture
+<h2 id="medallion-architecture">🧱Medallion Architecture</h2>
+
 ### 🟤Bronze Layer (Raw Data)
 Purpose: Preserve raw data exactly as received.
 - Data is ingested from CSV files
@@ -55,7 +56,7 @@ Purpose: Preserve raw data exactly as received.
 - Original column names and values retained
 - Ingestion timestamp added for traceability
 
-### ⚪ Silver Layer (Cleaned & Standardized Data)
+### ⚪Silver Layer (Cleaned & Standardized Data)
 Purpose: Improve data quality and consistency.
 - Invalid characters removed from column names
 - Duplicates handled using business keys
@@ -64,7 +65,7 @@ Purpose: Improve data quality and consistency.
 - Data types corrected
 - Business rules applied
 
-### 🟡 Gold Layer (Analytics-Ready Data)
+### 🟡Gold Layer (Analytics-Ready Data)
 Purpose: Enable business reporting and insights.
 - Dimensional modeling (Star Schema)
 - Dimension tables and fact tables are created
@@ -72,7 +73,7 @@ Purpose: Enable business reporting and insights.
 - Metadata columns for auditing
 - Optimized for BI tools, KPIs, and dashboards.
 
-## 📊KPI Metrics
+<h2 id="kpi-metrics">📊KPI Metrics</h2>
 The key performance indicators used to measure business performance and support data-driven decision-making. The KPIs are derived from Gold-layer fact and dimension tables and are visualized using dashboards.
 Sample KPI's:
 - Total Sales Revenue – Overall revenue generated across all stores
@@ -83,7 +84,7 @@ Sample KPI's:
 - Top Performing Store – Store with the highest sales value
 - Category Performance – Sales distribution across product categories
 
-## 📊Analytics and Dashboards
+<h2 id="analytics-and-dashboards">📊Analytics & Dashboards</h2>
 The Gold layer enables key business insights such as:
 - Total and yearly sales trends
 - Top and least performing stores
@@ -93,7 +94,7 @@ The Gold layer enables key business insights such as:
 - Gender and category-based customer insights
 - Dashboards are built using Databricks SQL with KPI counters, bar charts, and trend visualizations.
 
-## 🚀 Future Enhancements
+<h2 id="future-enhancements">🚀Future Enhancements</h2>
 
 - Implement Slowly Changing Dimensions (SCD Type 2) for full historical tracking
 - Add real-time streaming ingestion using Auto Loader or Kafka
@@ -102,7 +103,7 @@ The Gold layer enables key business insights such as:
 - Migrate dashboards to Power BI or Tableau
 - Add alerting and monitoring for pipeline failures
 
-## 🏁Conclusion
+<h2 id="conclusion">🏁Conclusion</h2>
 This project demonstrates an end-to-end data engineering and analytics solution using modern Lakehouse principles.
 By separating concerns across Bronze, Silver, and Gold layers, the platform ensures:
 - High data quality
