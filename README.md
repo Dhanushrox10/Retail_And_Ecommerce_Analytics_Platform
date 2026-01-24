@@ -5,6 +5,7 @@ This project implements a modern data analytics platform for a retail and e-comm
 ## 📌Table of Contents
 
 - [Project Overview](#project-overview)
+- [Project Objectives](#project-objectives)
 - [Tech Stack](#tech-stack)
 - [Project Architecture](#project-architecture)
 - [Medallion Architecture](#medallion-architecture)
@@ -15,6 +16,7 @@ This project implements a modern data analytics platform for a retail and e-comm
 
 <h2 id="project-overview">🧩Project Overview</h2>
 This project delivers an end-to-end Retail & E-Commerce Analytics Platform built on Databricks Lakehouse architecture. It transforms raw transactional data into analytics-ready datasets using a structured Bronze, Silver, and Gold data pipeline.
+
 
 The platform focuses on data quality, scalability, and performance by applying data cleaning, standardization, and dimensional modeling techniques. Gold-layer fact and dimension tables enable meaningful business insights such as sales trends, customer behavior, product performance, and store-level analysis.
 
@@ -75,14 +77,14 @@ Purpose: Enable business reporting and insights.
 
 <h2 id="kpi-metrics">📊KPI Metrics</h2>
 The key performance indicators used to measure business performance and support data-driven decision-making. The KPIs are derived from Gold-layer fact and dimension tables and are visualized using dashboards.
-Sample KPI's:
-- Total Sales Revenue – Overall revenue generated across all stores
-- Yearly / Monthly Sales Trend – Sales performance over time
-- Total Orders – Number of completed sales transactions
-- Average Order Value (AOV) – Average revenue per order
-- Customer Lifetime Value (CLV) – Total revenue contributed by a customer
-- Top Performing Store – Store with the highest sales value
-- Category Performance – Sales distribution across product categories
+  Example KPI's:
+  - Total Sales Revenue - Overall revenue generated across all stores
+  - Yearly / Monthly Sales Trend – Sales performance over time
+  - Total Orders – Number of completed sales transactions
+  - Average Order Value (AOV) – Average revenue per order
+  - Customer Lifetime Value (CLV) – Total revenue contributed by a customer
+  - Top Performing Store – Store with the highest sales value
+  - Category Performance – Sales distribution across product categories
 
 <h2 id="analytics-and-dashboards">📊Analytics & Dashboards</h2>
 The Gold layer enables key business insights such as:
